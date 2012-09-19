@@ -5,9 +5,6 @@ Developing gocept.recordserialize
 :Author:
     `gocept <http://gocept.com/>`_ <mail@gocept.com>
 
-:Online documentation:
-    http://docs.gocept.com/gocept.recordserialize/
-
 :PyPI page:
     http://pypi.python.org/pypi/gocept.recordserialize/
 
@@ -15,7 +12,4 @@ Developing gocept.recordserialize
     https://projects.gocept.com/projects/gocept-recordserialize/
 
 :Source code:
-    https://code.gocept.com/hg/public/gocept.recordserialize/
-
-:Current change log:
-    https://code.gocept.com/hg/public/gocept.recordserialize/raw-file/tip/CHANGES.txt
+    https://bitbucket.org/gocept/gocept.recordserialize/
