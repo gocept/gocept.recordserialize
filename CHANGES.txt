@@ -2,7 +2,7 @@
 Change log for gocept.recordserialize
 =====================================
 
-0.2 (unreleased)
+0.2 (2013-11-26)
 ================
 
 - Fixed dependency on setuptools.
