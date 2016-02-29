@@ -69,9 +69,9 @@ class SeparatedRecord(UserDict.DictMixin):
         return self._str_values(values)
 
     def _str_values(self, values):
-        str = unicode(self.separator).join(values)
-        str = str.encode(self.encoding) + self.lineterminator
-        return str
+        output = unicode(self.separator).join(values)
+        output = output.encode(self.encoding) + self.lineterminator
+        return output
 
     def _truncate(self, key, text):
         if text is None:
