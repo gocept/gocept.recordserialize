@@ -5,7 +5,7 @@ Change log for gocept.recordserialize
 0.3 (unreleased)
 ================
 
-- Nothing changed yet.
+- Escape unicode characters on errors.
 
 
 0.2 (2013-11-26)
