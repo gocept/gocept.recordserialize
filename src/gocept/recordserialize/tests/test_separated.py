@@ -41,7 +41,8 @@ class BasicRecordTest(unittest.TestCase):
 
         self.record[1] = u'☃'
         self.record[3] = 'ascii'
-        self.assertEqual(u'föö||bar#', str(self.record).decode('cp1252'))
+        self.assertEqual(u'?||ascii#', str(self.record).decode('cp1252'))
+
 
 class DeclarationTest(unittest.TestCase):
 
