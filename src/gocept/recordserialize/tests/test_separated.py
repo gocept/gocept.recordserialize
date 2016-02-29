@@ -34,6 +34,14 @@ class BasicRecordTest(unittest.TestCase):
         self.record[3] = 'bar'
         self.assertEqual(u'föö||bar#', str(self.record).decode('cp1252'))
 
+    def test_unicode_escape(self):
+        self.record.separator = '|'
+        self.record.lineterminator = '#'
+        self.record.encoding = 'cp1252'
+
+        self.record[1] = u'☃'
+        self.record[3] = 'ascii'
+        self.assertEqual(u'föö||bar#', str(self.record).decode('cp1252'))
 
 class DeclarationTest(unittest.TestCase):
 

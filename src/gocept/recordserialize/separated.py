@@ -70,7 +70,8 @@ class SeparatedRecord(UserDict.DictMixin):
 
     def _str_values(self, values):
         output = unicode(self.separator).join(values)
-        output = output.encode(self.encoding) + self.lineterminator
+        output = (output.encode(self.encoding, errors='replace') +
+                  self.lineterminator)
         return output
 
     def _truncate(self, key, text):
