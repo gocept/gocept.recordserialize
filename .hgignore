@@ -9,3 +9,5 @@ doc/_api
 eggs
 local.cfg
 parts
+*.pyc
+*.egg-info
