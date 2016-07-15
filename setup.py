@@ -1,6 +1,3 @@
-# Copyright (c) 2012-2013 gocept gmbh & co. kg
-# See also LICENSE.txt
-
 # This should be only one line. If it must be multi-line, indent the second
 # line onwards to keep the PKG-INFO file format intact.
 """File writer/parser for fixed-width and character-separated files
@@ -21,20 +18,20 @@ setup(
 
     install_requires=[
         'setuptools',
-        ],
+    ],
 
     extras_require={
         'test': [
-            ],
-        },
+        ],
+    },
 
     entry_points={
-        },
+    },
 
     author='gocept <mail@gocept.com>',
     author_email='mail@gocept.com',
     license='ZPL 2.1',
-    url='https://projects.gocept.com/projects/gocept-recordserialize/',
+    url='https://bitbucket.org/gocept/gocept.recordserialize/',
 
     keywords='',
     classifiers="""\
@@ -47,10 +44,10 @@ Programming Language :: Python :: 2 :: Only
 """[:-1].split('\n'),
     description=__doc__.strip(),
     long_description='\n\n'.join(open(project_path(name)).read() for name in (
-            'README.txt',
-            'HACKING.txt',
-            'CHANGES.txt',
-            )),
+        'README.txt',
+        'HACKING.txt',
+        'CHANGES.txt',
+    )),
 
     namespace_packages=['gocept'],
     packages=find_packages('src'),
@@ -58,4 +55,4 @@ Programming Language :: Python :: 2 :: Only
     include_package_data=True,
     data_files=[('', glob.glob(project_path('*.txt')))],
     zip_safe=False,
-    )
+)
