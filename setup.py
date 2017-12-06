@@ -13,7 +13,7 @@ def project_path(*names):
 
 setup(
     name='gocept.recordserialize',
-    version='0.4.dev0',
+    version='1.0.dev0',
 
     install_requires=[
         'setuptools',
@@ -37,7 +37,6 @@ setup(
 License :: OSI Approved :: Zope Public License
 Programming Language :: Python
 Programming Language :: Python :: 2
-Programming Language :: Python :: 2.6
 Programming Language :: Python :: 2.7
 Programming Language :: Python :: 2 :: Only
 """[:-1].split('\n'),
