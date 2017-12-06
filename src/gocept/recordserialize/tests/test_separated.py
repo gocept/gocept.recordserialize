@@ -81,4 +81,4 @@ class DeclarationTest(unittest.TestCase):
         class MyRecordWithMethod(self.record.__class__):
             def hash(self):
                 pass
-        self.failUnless(MyRecordWithMethod())
+        self.assertTrue(MyRecordWithMethod())

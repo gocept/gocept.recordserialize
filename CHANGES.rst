@@ -2,10 +2,10 @@
 Change log for gocept.recordserialize
 =====================================
 
-0.4 (unreleased)
+1.0 (unreleased)
 ================
 
-- Nothing changed yet.
+- Drop support for Python 2.6.
 
 
 0.3 (2016-02-29)
