@@ -2,6 +2,12 @@
 Change log for gocept.recordserialize
 =====================================
 
+1.1 (unreleased)
+================
+
+- Nothing changed yet.
+
+
 1.0 (2017-12-06)
 ================
 
