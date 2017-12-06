@@ -6,10 +6,10 @@ Developing gocept.recordserialize
     `gocept <http://gocept.com/>`_ <mail@gocept.com>
 
 :PyPI page:
-    http://pypi.python.org/pypi/gocept.recordserialize/
+    https://pypi.org/project/gocept.recordserialize/
 
 :Issue tracker:
-    https://projects.gocept.com/projects/gocept-recordserialize/
+    https://bitbucket.org/gocept/gocept.recordserialize/issues
 
 :Source code:
     https://bitbucket.org/gocept/gocept.recordserialize/
