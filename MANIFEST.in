@@ -4,9 +4,6 @@ include *.txt
 include .coveragerc
 include buildout.cfg
 
-include .hgsub
-exclude .hgsub
-
 include .hgtags
 exclude .hgtags
 
