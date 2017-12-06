@@ -1,0 +1,19 @@
+include *.py
+include *.rst
+include *.txt
+include .coveragerc
+include buildout.cfg
+
+include .hgsub
+exclude .hgsub
+
+include .hgtags
+exclude .hgtags
+
+include .hgignore
+exclude .hgignore
+
+exclude MANIFEST.in
+
+recursive-include doc *.py
+recursive-include doc *.txt
