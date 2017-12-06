@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gocept.recordserialize',
-    version='1.0.dev0',
+    version='1.0',
 
     install_requires=[
         'setuptools',

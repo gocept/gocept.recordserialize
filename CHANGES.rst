@@ -2,7 +2,7 @@
 Change log for gocept.recordserialize
 =====================================
 
-1.0 (unreleased)
+1.0 (2017-12-06)
 ================
 
 - Add support for `setuptools >= 32`.
