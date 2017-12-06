@@ -4,11 +4,6 @@
 """
 
 from setuptools import setup, find_packages
-import os.path
-
-
-def project_path(*names):
-    return os.path.join(os.path.dirname(__file__), *names)
 
 
 setup(
@@ -41,7 +36,7 @@ Programming Language :: Python :: 2.7
 Programming Language :: Python :: 2 :: Only
 """[:-1].split('\n'),
     description=__doc__.strip(),
-    long_description='\n\n'.join(open(project_path(name)).read() for name in (
+    long_description='\n\n'.join(open(name).read() for name in (
         'README.rst',
         'HACKING.rst',
         'CHANGES.rst',
