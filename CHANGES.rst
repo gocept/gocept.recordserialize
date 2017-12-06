@@ -5,6 +5,8 @@ Change log for gocept.recordserialize
 1.0 (unreleased)
 ================
 
+- Add support for `setuptools >= 32`.
+
 - Drop support for Python 2.6.
 
 
