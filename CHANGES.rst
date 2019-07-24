@@ -5,7 +5,7 @@ Change log for gocept.recordserialize
 1.1 (unreleased)
 ================
 
-- Nothing changed yet.
+- Require ``pytest < 5`` to keep Python 2 support.
 
 
 1.0 (2017-12-06)
