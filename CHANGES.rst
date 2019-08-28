@@ -7,6 +7,7 @@ Change log for gocept.recordserialize
 
 - Require ``pytest < 5`` to keep Python 2 support.
 
+- Migrate to Github.
 
 1.0 (2017-12-06)
 ================
