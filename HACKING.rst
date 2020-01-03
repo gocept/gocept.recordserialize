@@ -9,7 +9,7 @@ Developing gocept.recordserialize
     https://pypi.org/project/gocept.recordserialize/
 
 :Issue tracker:
-    https://github.com/gocept/gocept.recordserialize
+    https://github.com/gocept/gocept.recordserialize/issues
 
 :Source code:
     https://github.com/gocept/gocept.recordserialize

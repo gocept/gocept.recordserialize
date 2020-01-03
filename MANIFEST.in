@@ -7,8 +7,8 @@ include buildout.cfg
 include .hgtags
 exclude .hgtags
 
-include .hgignore
-exclude .hgignore
+include .gitignore
+exclude .gitignore
 
 exclude MANIFEST.in
 

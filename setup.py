@@ -25,7 +25,7 @@ setup(
     author='gocept <mail@gocept.com>',
     author_email='mail@gocept.com',
     license='ZPL 2.1',
-    url='https://bitbucket.org/gocept/gocept.recordserialize/',
+    url='https://github.com/gocept/gocept.recordserialize/',
 
     keywords='',
     classifiers="""\
