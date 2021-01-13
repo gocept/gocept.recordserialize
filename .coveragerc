@@ -4,10 +4,7 @@ source = gocept.recordserialize
 
 [report]
 precision = 2
-omit = */interfaces.py
-       */interfaces/*
-       */tests.py
-       */tests/*
+fail_under = 89
 
 [html]
 directory = coverage-report
