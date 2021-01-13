@@ -16,7 +16,8 @@ jobs:
         # [Python version, tox env]
         - ["2.7",   "flake8"]
         - ["2.7",   "py27"]
-        - ["2.7",   "coverage"]
+        # Deactivate as long as we have PY2
+        # - ["2.7",   "coverage"]
     runs-on: ubuntu-latest
     name: ${{ matrix.config[1] }}
     steps:
@@ -40,9 +41,8 @@ jobs:
       run: tox -e ${{ matrix.config[1] }}
     - name: Coverage
       if: matrix.config[1] == 'coverage'
-      # coveralls should be unpinned with PY3
       run: |
-        pip install coveralls<2.0.0 coverage-python-version
+        pip install coveralls coverage-python-version
         coveralls --service=github
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
