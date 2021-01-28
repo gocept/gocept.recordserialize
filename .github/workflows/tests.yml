@@ -14,7 +14,6 @@ jobs:
       matrix:
         config:
         # [Python version, tox env]
-        - ["2.7",   "flake8"]
         - ["2.7",   "py27"]
         # Deactivate as long as we have PY2
         # - ["2.7",   "coverage"]
