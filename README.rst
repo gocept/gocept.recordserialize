@@ -122,4 +122,3 @@ makes use of this is ``gocept.recordserialize.CSVRecord`` which escapes quotes::
   >>> r['one'] = 'my "quoted" string'
   >>> str(r)
   '"my \'quoted\' string"\r\n'
-
