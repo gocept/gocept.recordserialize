@@ -12,14 +12,14 @@ repos:
           - id: debug-statements
             language_version: python3
     - repo: https://github.com/PyCQA/flake8
-      rev: 3.9.2
+      rev: 4.0.1
       hooks:
           - id: flake8
             # Has to be updated PY2
             # additional_dependencies: [flake8-typing-imports==1.9.0]
             language_version: python2
     - repo: https://github.com/pre-commit/mirrors-autopep8
-      rev: v1.5.7
+      rev: v1.6.0
       hooks:
           - id: autopep8
     - repo: https://github.com/PyCQA/isort
