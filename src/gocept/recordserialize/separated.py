@@ -1,3 +1,4 @@
+import six
 import UserDict
 
 
@@ -66,7 +67,7 @@ class SeparatedRecord(UserDict.DictMixin):
         return self._str_values(values)
 
     def _str_values(self, values):
-        output = unicode(self.separator).join(values)
+        output = six.text_type(self.separator).join(values)
         output = (output.encode(self.encoding, errors='replace') +
                   self.lineterminator)
         return output

@@ -13,6 +13,7 @@ setup(
 
     install_requires=[
         'setuptools',
+        'six',
     ],
 
     extras_require={
