@@ -15,9 +15,8 @@ repos:
       rev: 4.0.1
       hooks:
           - id: flake8
-            # Has to be updated PY2
-            # additional_dependencies: [flake8-typing-imports==1.9.0]
-            language_version: python2
+            language_version: python3
+            additional_dependencies: [flake8-typing-imports==1.9.0]
     - repo: https://github.com/pre-commit/mirrors-autopep8
       rev: v1.6.0
       hooks:

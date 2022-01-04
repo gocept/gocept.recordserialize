@@ -1,3 +1,6 @@
+import six
+
+
 class FixedWidthRecord(object):
 
     fields = ()
@@ -21,7 +24,7 @@ class FixedWidthRecord(object):
         for config in self.fields:
             name, length, fill, direction = self._expand_config(config)
 
-            value = unicode(self.data.get(name, ''))
+            value = six.text_type(self.data.get(name, ''))
             value = value[:length]
 
             method = getattr(value, direction)
