@@ -20,7 +20,7 @@ jobs:
         - ["2.7",   "py27"]
         # Deactivate as long as we have PY2
         # - ["2.7",   "coverage"]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: ${{ matrix.config[1] }}
     steps:
     - uses: actions/checkout@v2
