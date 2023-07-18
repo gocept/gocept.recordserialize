@@ -1,3 +1,5 @@
+⚠️ This repository is archived. To request un-archiving or transfer, please contact mail@gocept.com.
+
 =======================================
 The gocept.recordserialize distribution
 =======================================
